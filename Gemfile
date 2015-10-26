@@ -15,7 +15,7 @@ group :production, :postgresql do
 end
 
 group :development, :test do
-  gem 'sqlite3'
+  gem 'sqlite3', '1.3.11'
   gem 'minitest'
   gem 'thor', '= 0.14.6'
 end
